@@ -14,6 +14,6 @@ while run:
             run = False
 
     screen.fill((0, 0, 0)) #заполняем экран цветом
-    pygame.display.flip() #обновляем экран
+    pygame.display.flip() #Все изменения на экране видны благодаря этой функции, обновление экрана
 
 pygame.quit()
